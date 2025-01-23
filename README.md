@@ -15,9 +15,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<a href="https://github.com/agoodkind/GitHub-Language-Stats">
-<img src="https://github.com/agoodkind/GitHub-Language-Stats/blob/master/generated/overview.svg" />
-<img src="https://github.com/agoodkind/GitHub-Language-Stats/blob/master/generated/languages.svg" />
+<a href="https://github.com/agoodkind/stats">
+<img src="https://github.com/agoodkind/stats/blob/master/generated/overview.svg" />
+<img src="https://github.com/agoodkind/stats/blob/master/generated/languages.svg" />
 </a>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=agoodkind)
