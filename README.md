@@ -16,9 +16,18 @@ Here are some ideas to get you started:
 -->
 
 <a href="https://github.com/agoodkind/stats">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agoodkind/stats/master/generated/overview.svg#gh-dark-mode-only" />
 <img src="https://raw.githubusercontent.com/agoodkind/stats/master/generated/overview.svg" />
+</picture>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agoodkind/stats/master/generated/languages.svg#gh-dark-mode-only" />
 <img src="https://raw.githubusercontent.com/agoodkind/stats/master/generated/languages.svg" />
+</picture>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agoodkind/stats/master/generated/top_repos.svg#gh-dark-mode-only" />
 <img src="https://raw.githubusercontent.com/agoodkind/stats/master/generated/top_repos.svg" />
+</picture>
 </a>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=agoodkind)
