@@ -29,5 +29,3 @@ Here are some ideas to get you started:
 <img src="https://raw.githubusercontent.com/agoodkind/stats/master/generated/top_repos.svg" />
 </picture>
 </a>
-
-![Profile Views](https://komarev.com/ghpvc/?username=agoodkind)
