@@ -1,0 +1,53 @@
+name: Update Stats Cache Key
+
+on:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout stats repository
+        uses: actions/checkout@v6
+        with:
+          repository: agoodkind/stats
+          ref: master
+          persist-credentials: false
+
+      - name: Checkout profile repository
+        uses: actions/checkout@v6
+        with:
+          path: profile
+
+      - name: Set up Go
+        uses: actions/setup-go@v6
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - name: Update README stats image cache keys
+        run: |
+          set -x
+          cache_key="$(git -C "$GITHUB_WORKSPACE" rev-parse --short=12 HEAD)"
+          go run ./cmd/stats-gh-readme-cache -cache "$cache_key"
+
+      - name: Commit README cache keys
+        run: |
+          set -x
+          git -C "$GITHUB_WORKSPACE/profile" config user.name "agoodkind-gh-bot"
+          git -C "$GITHUB_WORKSPACE/profile" config user.email "gh-bots@goodkind.io"
+          git -C "$GITHUB_WORKSPACE/profile" status --short README.md
+          git -C "$GITHUB_WORKSPACE/profile" add README.md
+          if git -C "$GITHUB_WORKSPACE/profile" diff --cached --quiet; then
+            echo "no README changes to commit"
+            exit 0
+          fi
+          git -C "$GITHUB_WORKSPACE/profile" diff --cached --stat
+          git -C "$GITHUB_WORKSPACE/profile" commit -m "Update stats image cache keys"
+          git -C "$GITHUB_WORKSPACE/profile" push origin HEAD:main
