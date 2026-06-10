@@ -3,10 +3,10 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=agoodkind)
 
 <p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agoodkind/stats/master/generated/overview.svg?cache=d07555c5c0ec#gh-dark-mode-only" /><img align="top" width="360" alt="GitHub overview" src="https://raw.githubusercontent.com/agoodkind/stats/master/generated/overview.svg?cache=d07555c5c0ec" /></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agoodkind/stats/master/generated/languages.svg?cache=d07555c5c0ec#gh-dark-mode-only" /><img align="top" width="360" alt="GitHub languages" src="https://raw.githubusercontent.com/agoodkind/stats/master/generated/languages.svg?cache=d07555c5c0ec" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agoodkind/stats/master/generated/overview.svg?cache=24dad6c38538#gh-dark-mode-only" /><img align="top" width="360" alt="GitHub overview" src="https://raw.githubusercontent.com/agoodkind/stats/master/generated/overview.svg?cache=24dad6c38538" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agoodkind/stats/master/generated/languages.svg?cache=24dad6c38538#gh-dark-mode-only" /><img align="top" width="360" alt="GitHub languages" src="https://raw.githubusercontent.com/agoodkind/stats/master/generated/languages.svg?cache=24dad6c38538" /></picture>
 </p>
 
 <p>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agoodkind/stats/master/generated/top_repos.svg?cache=d07555c5c0ec#gh-dark-mode-only" /><img align="top" width="360" alt="GitHub top repos" src="https://raw.githubusercontent.com/agoodkind/stats/master/generated/top_repos.svg?cache=d07555c5c0ec" /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/agoodkind/stats/master/generated/top_repos.svg?cache=24dad6c38538#gh-dark-mode-only" /><img align="top" width="360" alt="GitHub top repos" src="https://raw.githubusercontent.com/agoodkind/stats/master/generated/top_repos.svg?cache=24dad6c38538" /></picture>
 </p>
